@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="container">
+        <header>
+          <h1>Calculator</h1>
+        </header>
+
+        <section class="main-container">
+          <div class="output__container">
+            <article class="output__area">
+              <span class="output__label">Output:</span>
+              <span id="amount" class="output__amount"></span>
+            </article>
+          </div>
+          <div class="num__container">
+            <input class="num__input" type="number" required />
+            <span class="plus">+</span>
+            <input class="num__input" type="number" required />
+          </div>
+          <button id="add" class="add-btn">Add</button>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
